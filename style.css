@@ -16710,7 +16710,7 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .banner::before {
-    background-image: url(../img/bg/overlay_triangles_primary_left.png)
+    background-image: url(images/overlay_triangles_primary_left.png)
 }
 
 @media (min-width: 768px) {
