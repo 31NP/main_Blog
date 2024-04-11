@@ -2400,6 +2400,12 @@ pre code {
     .font-size-24 {
         font-size: 17px !important;
     }
+    .owlitem{
+        width: 355px !important;
+    }
+    .colfot{
+        flex-basis: auto;
+    }
 }
 
 
@@ -16715,7 +16721,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 768px) {
     .banner::after {
-        background-image:url(../img/bg/overlay_triangles_primary_bottom.png);
+        background-image:url(images/overlay_triangles_primary_bottom.png);
         transform: translateY(100%);
         z-index: 1
     }
@@ -19745,6 +19751,12 @@ img {
     .font-size-26 {
         font-size: 16px !important;
     }
+    .owlitem {
+        width: 260px !important;
+    }
+    .header-section {
+        font-size: 21px !important;
+    }
 }
 
 .swiper {
@@ -19873,3 +19885,7 @@ img {
 .swiper-pagination {
     position: relative !important;
 }
+.owlitem{
+    width: 1050px;
+}
+
