@@ -2344,7 +2344,7 @@ pre code {
        
     }
     .card--feature .card--feature__title{
-        font-size: 30px !important;
+        font-size: 24px !important;
     }
     .whyy{
         display: none !important;
@@ -2405,6 +2405,9 @@ pre code {
     }
     .colfot{
         flex-basis: auto;
+    }
+    .cricpay {
+        width: 39% !important;
     }
 }
 
@@ -12289,7 +12292,7 @@ a.text-gray-650:focus,a.text-gray-650:hover {
 }
 
 .font-size-36 {
-    font-size: 36px!important
+    font-size: 31px!important
 }
 
 .font-size-37 {
@@ -15355,7 +15358,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 768px) {
     .card--feature>header {
-        padding:55px 20px 0;
+        padding:30px 14px 0;
         font-size: 16px
     }
 }
@@ -15382,7 +15385,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 768px) {
     .card--feature .card--feature__title {
-        font-size:36px
+        font-size:24px
     }
 }
 
@@ -15405,8 +15408,8 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 1200px) {
     .card--feature .card--feature__text {
-        padding:0 55px 55px;
-        font-size: 16px
+        padding: 0 19px 23px;
+        font-size: 15px
     }
 }
 
@@ -16412,7 +16415,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 768px) {
     .form-default textarea {
-        height:300px
+        height:125px
     }
 }
 
@@ -16571,7 +16574,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 992px) {
     .footer-main .footer-main__content__lists-wrapper {
-        background:url(images/world_map.png) no-repeat;
+        background:url(images/world_map.webp) no-repeat;
         background-size: contain
     }
 }
@@ -19735,8 +19738,11 @@ img {
 }
 @media (max-width:280px){
     .btn, .btn-icon {
-        padding: 11px 20px;
+        padding: 11px 33px;
         font-size: 1.0rem;
+    }
+    .cricpay {
+        width: 44% !important;
     }
     h2 {
         font-size: 1.5rem;
@@ -19756,6 +19762,9 @@ img {
     }
     .header-section {
         font-size: 21px !important;
+    }
+    .card--product.card--product--carousel {
+        width: auto;
     }
 }
 
@@ -19889,3 +19898,17 @@ img {
     width: 1050px;
 }
 
+.containerr2{
+    max-width: 1200px !important;
+}
+
+@media (min-width: 992px){
+.col-lg-42 {
+    flex: 0 0 33.33333%;
+    max-width: 24.33333%;
+}
+}
+
+.cricpay{
+   width: 14%;
+}
