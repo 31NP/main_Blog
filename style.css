@@ -14785,7 +14785,7 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .btn-icon.btn-icon--arrow-down-lg {
-    background-image: url(../icons/basic/arrow_down_lg.svg);
+    /* background-image: url(../icons/basic/arrow_down_lg.svg); */
     background-size: 58px 58px
 }
 
@@ -15194,7 +15194,7 @@ body.modal-open--popup .dg-secondary-navbar {
     bottom: 0;
     left: 0;
     height: 35px;
-    background: url(../icons/basic/arrow_right_circle.svg) center center no-repeat;
+    background: url(images/arrow_right_circle.svg) center center no-repeat;
     margin-bottom: 12px
 }
 
@@ -19628,7 +19628,7 @@ img {
 .swiper-slide {
   height: 300px;
   display:flex;
-  background: #eee;
+  /* background: #eee; */
   align-items: center;
   justify-content:center;
   transition:all 200ms linear;
@@ -19636,7 +19636,7 @@ img {
   
   &.swiper-slide-active{
     transform: scale(1);
-    background: #fc0
+    /* background: #fc0 */
   }
 }
 .swiper-slide__content {
@@ -19798,7 +19798,7 @@ img {
   .swiper-slide span {
     text-transform: uppercase;
     color: #fff;
-    background: #1b7402;
+    /* background: #1b7402; */
     padding: 7px 18px 7px 25px;
     display: inline-block;
     border-radius: 0 20px 20px 0px;
@@ -19911,4 +19911,9 @@ img {
 
 .cricpay{
    width: 14%;
+}
+@media (min-width: 1200px){
+.home-img img {
+    transform: scale(1.25);
+}
 }
