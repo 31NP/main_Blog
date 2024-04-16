@@ -2354,6 +2354,7 @@ pre code {
         overflow: initial !important;
     
     }
+
    
     
 }
@@ -2408,6 +2409,9 @@ pre code {
     }
     .cricpay {
         width: 39% !important;
+    }
+    .instaa{
+        margin-top: 0px !important
     }
 }
 
@@ -19928,3 +19932,7 @@ img {
 } 
 
 .scroll img { height: 500px; }
+
+.instaa{
+    margin-top: 4px
+}
