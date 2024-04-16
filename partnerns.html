@@ -8,11 +8,9 @@
     content="White Label Betting Exchange, Live Streaming TV API, Live Casinos API, Betting API Provider." />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -316,24 +314,8 @@
                 </ul>
             </div>
 
-            <ul class="navbar-nav sal-animate" data-sal="slide-right" data-sal-duration="1000">
-
-
-                <li class="nav-item">
-                    <a class="dg-navbar__toggle dg-navbar__secondary-menu-toggle nav-link hover-opacity btn-link"
-                        href="#" data-secondary-navbar-mobile-menu-toggle="">
-
-                    </a>
-                </li>
-
-
-                <li class="nav-item">
-                    <a class="dg-navbar__toggle dg-navbar__mobile-menu-toggle nav-link px-2" href="#"
-                        data-navbar-mobile-menu-toggle="" data-prevent-default="" aria-label="menu">
-                        <i class="fa-solid fa-bars" onclick="myFun()"></i>
-                    </a>
-                </li>
-            </ul>
+             <!-- mobile-menu -->
+             <img style="width:7% ;"  src="images/hamburger.png" onclick="myFun()" alt="">
         </nav>
 
     </div>
@@ -543,7 +525,7 @@
                                 class="card--provider-logo card--hover-shadow-transform p-partners__card--provider-logo">
                                 <img 
                                     alt="pragmatic-play" class="img-lazy loaded"
-                                    src="images/pragmatic-play-300x99.png"
+                                    src="images/pragmatic-play-300x99.webp"
                                     data-was-processed="true">
                             </div>
                         </div>
@@ -811,7 +793,7 @@
                             <li class="list-inline-item mr-4">
                                 <a href="tel:+37460700400" class="link--with-icon text-body">
                                     <span>
-                                        <img width="256" height="256" src="images/mobile.svg" alt="Mobile"
+                                        <img width="256" height="256" src="images/mobile2.webp" alt="Mobile"
                                             data-ll-status="loaded" class="entered lazyloaded"
                                             data-was-processed="true">
                                     </span>
@@ -881,9 +863,26 @@
         </div>
     </footer>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-    <script src='https://use.fontawesome.com/826a7e3dce.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
         <script src="/script.js"></script>
+
+        <script>$(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: false,
+                autoplay: false,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    }
+                }
+            });
+          });</script>
 </body>
 
 </html>
