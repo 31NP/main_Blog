@@ -15333,7 +15333,7 @@ body.modal-open--popup .dg-secondary-navbar {
     .list--features-with-img .list--features-with-img__feature__text {
         min-height:72px;
         display: -webkit-box;
-        -webkit-line-clamp: 3;
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden
     }
