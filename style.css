@@ -10580,7 +10580,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
     }
 
     .pt-lg-5,.py-lg-5 {
-        padding-top: 3rem!important
+        /* padding-top: 3rem!important */
     }
 
     .pr-lg-5,.px-lg-5 {
@@ -15297,7 +15297,7 @@ body.modal-open--popup .dg-secondary-navbar {
     font-size: 17px;
     text-transform: uppercase;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    margin-bottom: 0
+    margin-top: 4%;
 }
 
 .list--features-with-img .list--features-with-img__image {
@@ -15319,8 +15319,8 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 992px) {
     .list--features-with-img .list--features-with-img__icon {
-        width:64px;
-        height: 64px
+        width:60px;
+        height: 60px
     }
 }
 
