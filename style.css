@@ -9355,7 +9355,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
 }
 
 .mt-4,.my-4 {
-    margin-top: 1.5rem!important
+    /* margin-top: 1.5rem!important */
 }
 
 .mr-4,.mx-4 {
@@ -15431,7 +15431,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 1200px) {
     .card--event {
-        padding:70px 50px
+        /* padding:70px 50px */
     }
 }
 
