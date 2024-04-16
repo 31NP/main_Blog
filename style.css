@@ -10218,7 +10218,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
     }
 
     .pt-md-5,.py-md-5 {
-        padding-top: 3rem!important
+        /* padding-top: 3rem!important */
     }
 
     .pr-md-5,.px-md-5 {
@@ -19917,3 +19917,14 @@ img {
     transform: scale(1.25);
 }
 }
+.scroll { 
+    overflow-x: hidden;  
+
+  /* other styling */
+  border: solid 5px black;
+  border-radius: 5px;
+  height: 100%;
+  /* width: 300px; */
+} 
+
+.scroll img { height: 500px; }
