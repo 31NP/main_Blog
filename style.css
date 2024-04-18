@@ -2996,7 +2996,8 @@ a.btn.disabled,a.disabled.btn-icon,fieldset:disabled a.btn,fieldset:disabled a.b
 .btn-primary {
     color: #fff;
     background-color: #00aabe;
-    border-color: #00aabe
+    border-color: #00aabe;
+    margin: 0.45em 0px;
 }
 
 .btn-primary:hover {
@@ -19686,6 +19687,7 @@ img {
     background-image: linear-gradient(90deg, #116984 0, rgba(17, 105, 132, .77) 23%, rgba(40, 40, 40, 0) 100%);
     opacity: .75;
     position: absolute;
+    /* background: linear-gradient(90deg, #333399, #ff00cc); */
 }
 .centrivo-features-cards .card--product {
     height: auto;
@@ -19946,4 +19948,12 @@ padding-top: 5%;
 
 .mtt{
     margin-top: 1.5rem
+}
+
+.title-home{
+    width: 75%;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.45em 0 !important;
 }
