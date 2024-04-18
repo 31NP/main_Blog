@@ -1,0 +1,3 @@
+# start of file
+user-agent: *
+sitemap: https://exchblog.cricketscoreapi.com/sitemap.xml
