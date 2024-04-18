@@ -15458,7 +15458,8 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .card--event .card--event__location-and-date {
-    color: #ffc800;
+    /* color: #ffc800; */
+    color: #fd6522;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 400;
     font-size: 16px;
