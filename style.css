@@ -3000,8 +3000,10 @@ a.btn.disabled,a.disabled.btn-icon,fieldset:disabled a.btn,fieldset:disabled a.b
 
 .btn-primary {
     color: #fff;
-    background-color: #00aabe;
-    border-color: #00aabe;
+    /* background-color: #00aabe;
+    border-color: #00aabe; */
+    background-color: #fb6522;
+    border-color: #fb6522;
     margin: 0.45em 0px;
 }
 
@@ -13290,11 +13292,13 @@ a {
     display: flex;
     flex-direction: column;
     font-size: 42px;
-    color: #00aabe;
+    /* color: #00aabe; */
+    color: #182f51;
     margin-bottom: 38px;
     text-transform: uppercase;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    line-height: 1
+    line-height: 1;
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -15383,12 +15387,13 @@ body.modal-open--popup .dg-secondary-navbar {
 
 .card--feature .card--feature__title {
     text-transform: uppercase;
-    color: #fd6522;
+    /* color: #fd6522; */
+    color: #182f51;
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
     display: block
 }
@@ -15458,8 +15463,8 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .card--event .card--event__location-and-date {
-    /* color: #ffc800; */
-    color: #fd6522;
+    color: #ffc800;
+    /* color: #fd6522; */
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 400;
     font-size: 16px;
@@ -17099,7 +17104,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 768px) {
     .page-hero__btn-contact-us {
-        font-size:32px
+        font-size:25px
     }
 }
 
@@ -19690,10 +19695,11 @@ img {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(90deg, #116984 0, rgba(17, 105, 132, .77) 23%, rgba(40, 40, 40, 0) 100%);
+    /* background-image: linear-gradient(90deg, #116984 0, rgba(17, 105, 132, .77) 23%, rgba(40, 40, 40, 0) 100%); */
     opacity: .75;
     position: absolute;
-    /* background: linear-gradient(90deg, #00246b, #8ab6f9); */
+    /* background: linear-gradient(90deg, #f14c01, #ff7f02); */
+    /* background-image: linear-gradient(90deg, #f14c01 0, rgba(242, 78, 1, 1) 23%, rgba(254, 124, 1, 1) 100%); */
  
 }
 .centrivo-features-cards .card--product {
@@ -19963,4 +19969,15 @@ padding-top: 5%;
 h1 {
     font-size: 2em;
     margin: 0.45em 0 !important;
+}
+.list--flip-cards .list--flip-cards__card > .front {
+    z-index: 2;
+    transform: rotateY(0deg);
+    /* background-color: rgb(24, 47, 81, 1) !important; */
+    background-color:#fd6522!important;
+    color: rgb(255, 255, 255);
+    padding: 2px 10px 25px;
+}
+.wrapeer{
+    bottom: 24% !important;
 }
