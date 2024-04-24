@@ -2354,7 +2354,6 @@ pre code {
         overflow: initial !important;
     
     }
-
    
     
 }
@@ -2390,11 +2389,6 @@ pre code {
 
     
 }
-@media (max-width: 653px){
-.d-md-none2{
-    display: none ;
-}
-}
 
 @media (max-width: 480px){
     .pt-5 {
@@ -2414,9 +2408,6 @@ pre code {
     }
     .cricpay {
         width: 39% !important;
-    }
-    .instaa{
-        margin-top: 0px !important
     }
 }
 
@@ -3000,11 +2991,8 @@ a.btn.disabled,a.disabled.btn-icon,fieldset:disabled a.btn,fieldset:disabled a.b
 
 .btn-primary {
     color: #fff;
-    /* background-color: #00aabe;
-    border-color: #00aabe; */
-    background-color: #fb6522;
-    border-color: #fb6522;
-    margin: 0.45em 0px;
+    background-color: #00aabe;
+    border-color: #00aabe
 }
 
 .btn-primary:hover {
@@ -3387,8 +3375,8 @@ a.btn.disabled,a.disabled.btn-icon,fieldset:disabled a.btn,fieldset:disabled a.b
 }
 
 .btn-outline-primary {
-    color: #fb6522;
-    border-color: #fb6522
+    color: #00aabe;
+    border-color: #00aabe
 }
 
 .btn-outline-primary:hover {
@@ -4973,7 +4961,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     }
     .page-hero .page-hero__title {
 
-        font-size: 32px !important;
+        font-size: 36px !important;
     }
     .owl-itemp {
         width: auto !important;
@@ -9367,7 +9355,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
 }
 
 .mt-4,.my-4 {
-    /* margin-top: 1.5rem!important */
+    margin-top: 1.5rem!important
 }
 
 .mr-4,.mx-4 {
@@ -10230,7 +10218,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
     }
 
     .pt-md-5,.py-md-5 {
-        /* padding-top: 3rem!important */
+        padding-top: 3rem!important
     }
 
     .pr-md-5,.px-md-5 {
@@ -10592,7 +10580,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
     }
 
     .pt-lg-5,.py-lg-5 {
-        /* padding-top: 3rem!important */
+        padding-top: 3rem!important
     }
 
     .pr-lg-5,.px-lg-5 {
@@ -13292,13 +13280,11 @@ a {
     display: flex;
     flex-direction: column;
     font-size: 42px;
-    /* color: #00aabe; */
-    color: #182f51;
+    color: #00aabe;
     margin-bottom: 38px;
     text-transform: uppercase;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    line-height: 1;
-    font-weight: 600;
+    line-height: 1
 }
 
 @media (min-width: 768px) {
@@ -13782,11 +13768,10 @@ body.modal-open--popup .dg-secondary-navbar {
 
 .dg-navbar .navbar-nav .nav-link {
     position: relative;
-    color: #182f51;
+    color: #fff;
     transition: color .2s ease-in-out;
     padding-right: 1rem;
-    padding-left: 1rem;
-    font-weight: 600;
+    padding-left: 1rem
 }
 
 @media (hover: hover) {
@@ -14800,7 +14785,7 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .btn-icon.btn-icon--arrow-down-lg {
-    /* background-image: url(../icons/basic/arrow_down_lg.svg); */
+    background-image: url(../icons/basic/arrow_down_lg.svg);
     background-size: 58px 58px
 }
 
@@ -15209,7 +15194,7 @@ body.modal-open--popup .dg-secondary-navbar {
     bottom: 0;
     left: 0;
     height: 35px;
-    background: url(images/arrow_right_circle.svg) center center no-repeat;
+    background: url(../icons/basic/arrow_right_circle.svg) center center no-repeat;
     margin-bottom: 12px
 }
 
@@ -15312,7 +15297,7 @@ body.modal-open--popup .dg-secondary-navbar {
     font-size: 17px;
     text-transform: uppercase;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    margin-top: 4%;
+    margin-bottom: 0
 }
 
 .list--features-with-img .list--features-with-img__image {
@@ -15334,8 +15319,8 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 992px) {
     .list--features-with-img .list--features-with-img__icon {
-        width:60px;
-        height: 60px
+        width:64px;
+        height: 64px
     }
 }
 
@@ -15388,13 +15373,12 @@ body.modal-open--popup .dg-secondary-navbar {
 
 .card--feature .card--feature__title {
     text-transform: uppercase;
-    /* color: #fd6522; */
-    color: #182f51;
+    color: #00aabe;
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.2;
     display: block
 }
@@ -15447,7 +15431,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 1200px) {
     .card--event {
-        /* padding:70px 50px */
+        padding:70px 50px
     }
 }
 
@@ -15464,8 +15448,7 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .card--event .card--event__location-and-date {
-    color: #fb6522;
-    /* color: #fd6522; */
+    color: #ffc800;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 400;
     font-size: 16px;
@@ -16557,7 +16540,7 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .footer-main .footer-main__content {
-    background-color: #182f51;
+    background-color: #282828;
     padding-top: 20px;
     padding-bottom: 10px
 }
@@ -16844,7 +16827,7 @@ body.modal-open--popup .dg-secondary-navbar {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url(images/bg_smoke.webp);
+    background-image: url(images/bg_smoke.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 35%
@@ -17067,7 +17050,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 1200px) {
     .page-hero .page-hero__title {
-        font-size:60px
+        font-size:70px
     }
 }
 
@@ -17105,7 +17088,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 768px) {
     .page-hero__btn-contact-us {
-        font-size:25px
+        font-size:32px
     }
 }
 
@@ -19645,7 +19628,7 @@ img {
 .swiper-slide {
   height: 300px;
   display:flex;
-  /* background: #eee; */
+  background: #eee;
   align-items: center;
   justify-content:center;
   transition:all 200ms linear;
@@ -19653,7 +19636,7 @@ img {
   
   &.swiper-slide-active{
     transform: scale(1);
-    /* background: #fc0 */
+    background: #fc0
   }
 }
 .swiper-slide__content {
@@ -19696,12 +19679,9 @@ img {
     right: 0;
     bottom: 0;
     left: 0;
-    /* background-image: linear-gradient(90deg, #116984 0, rgba(17, 105, 132, .77) 23%, rgba(40, 40, 40, 0) 100%); */
+    background-image: linear-gradient(90deg, #116984 0, rgba(17, 105, 132, .77) 23%, rgba(40, 40, 40, 0) 100%);
     opacity: .75;
     position: absolute;
-    /* background: linear-gradient(90deg, #f14c01, #ff7f02); */
-    /* background-image: linear-gradient(90deg, #f14c01 0, rgba(242, 78, 1, 1) 23%, rgba(254, 124, 1, 1) 100%); */
- 
 }
 .centrivo-features-cards .card--product {
     height: auto;
@@ -19818,7 +19798,7 @@ img {
   .swiper-slide span {
     text-transform: uppercase;
     color: #fff;
-    /* background: #1b7402; */
+    background: #1b7402;
     padding: 7px 18px 7px 25px;
     display: inline-block;
     border-radius: 0 20px 20px 0px;
@@ -19931,81 +19911,4 @@ img {
 
 .cricpay{
    width: 14%;
-}
-@media (min-width: 1200px){
-.home-img img {
-    transform: scale(1.25);
-}
-}
-.scroll { 
-    overflow-x: hidden;  
-
-  /* other styling */
-  border: solid 5px black;
-  border-radius: 5px;
-  height: 100%;
-  /* width: 300px; */
-} 
-
-.scroll img { height: 500px; }
-
-.instaa{
-    margin-top: 4px
-}
-
-.titles{
-FONT-SIZE: 23PX !important;
-    FONT-WEIGHT: 700 !important;
-color: #182f51 !important;
-padding-top: 5%;
-}
-
-.mtt{
-    margin-top: 1.5rem
-}
-
-.title-home{
-    width: 75%;
-}
-h1 {
-    font-size: 2em;
-    margin: 0.45em 0 !important;
-}
-.list--flip-cards .list--flip-cards__card > .front {
-    z-index: 2;
-    transform: rotateY(0deg);
-    /* background-color: rgb(24, 47, 81, 1) !important; */
-    background-color:#fd6522!important;
-    color: rgb(255, 255, 255);
-    padding: 2px 10px 25px;
-}
-.wrapeer{
-    bottom: 24% !important;
-}
-.dg-navbar {
-    font-family: "Roboto Condensed", Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    min-height: 68px;
-    background-color: rgb(255 255 255);
-    padding-top: 0px;
-    padding-bottom: 0px;
-    z-index: 1051 !important;
-}
-
-.mddd{
-    background-color: #ffffff !important;
-}
-
-.mdt{
-    color: #000 !important;
-}
-.btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
-    background-color: #182f51;
-    border-color: #182f51;
-}
-.navv{
-    color: white !important;
 }
