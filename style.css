@@ -13100,7 +13100,8 @@ body {
     }
     .header-section {
       
-        font-size: 26px !important;
+        font-size: 18px !important;
+        font-weight: 600;
     }
 
 }
@@ -13299,7 +13300,8 @@ a {
 
 @media (min-width: 768px) {
     .header-section {
-        font-size:48px
+        font-size: 36px;
+        font-weight: 500;
     }
 }
 
@@ -17767,7 +17769,7 @@ body.modal-open--popup .dg-secondary-navbar {
 .product-demo-in-device-top-panel span {
     height: 10px;
     width: 18px;
-    background-image: url(../img/ios_icons_sprite.png);
+    /* background-image: url(../img/ios_icons_sprite.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -19691,7 +19693,7 @@ img {
     right: 0;
     bottom: 0;
     left: 0;
-    /* background-image: linear-gradient(90deg, #116984 0, rgba(17, 105, 132, .77) 23%, rgba(40, 40, 40, 0) 100%); */
+    /* background-image: linear-gradient(90deg, #116984 0, rgb(17 105 132 / 31%) 23%, rgba(40, 40, 40, 0) 100%); */
     opacity: .75;
     position: absolute;
     /* background: linear-gradient(90deg, #1b2443, #1847b9); */
@@ -20000,10 +20002,15 @@ h1 {
     border-radius: 40px;
 } */
 .home-blurbtn{
-    color: #fff;
+    /* color: #fff;
     background-color: #000000ab;
     border-color: #797979;
+    margin: 0.45em 0px; */
+    color: #fff;
+    background-color: #009db0;
     margin: 0.45em 0px;
+    font-weight: 600;
+    border-color: #003940;
 }
 .home-blurbtn:hover {
     color: #fff;
@@ -20016,4 +20023,10 @@ h1 {
     background-color: #008898;
     border-color: #007c8b;
     box-shadow: 0 0 0 .2rem rgba(38,183,200,.5)
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00aabe;
+    border-color: #00aabe;
 }
