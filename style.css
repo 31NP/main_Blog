@@ -5633,7 +5633,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 }
 
 .breadcrumb-item.active {
-    color: #fb6522
+    color:#ff4e00b3
 }
 
 .pagination {
@@ -11983,7 +11983,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
 }
 
 .card--employee a,.text-primary {
-    color: #fb6522!important
+    color: #ff5700bd!important
 }
 
 .card--employee a:focus,.card--employee a:hover,a.text-primary:focus,a.text-primary:hover {
@@ -15195,7 +15195,7 @@ body.modal-open--popup .dg-secondary-navbar {
 .list--flip-cards .list--flip-cards__card>.front {
     z-index: 2;
     transform: rotateY(0);
-    background-color: #5b5b5b;
+    background-color: #00aabe;
     color: #fff;
     padding: 2px 10px 25px
 }
@@ -19658,9 +19658,11 @@ img {
 }
 .iso_blokcs {
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .iso_logo {
-    padding: 0px;
+    padding: 0px 5% 0px 0px;
     margin: auto 0;
     display: flex !important;
 }
@@ -19674,7 +19676,7 @@ img {
     max-width: 170px;
 }
 .iso_logo img {
-    width: 33%;
+    width: 100%;
 }
 .car-p{
     display: flex;
