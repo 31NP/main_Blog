@@ -13602,7 +13602,7 @@ body.modal-open--popup .dg-secondary-navbar {
 }
 
 .dg-navbar .navbar-brand>img {
-    width: 100px
+    width: 100px !important
 }
 
 .dg-navbar .navbar-collapse {
