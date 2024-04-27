@@ -13648,7 +13648,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
     .dg-navbar .navbar-collapse .navbar-nav .nav-link[data-toggle=dropdown]::after {
         content: '';
-        background-image: url(images/arrow_down.svg);
+        /* background-image: url(images/arrow_down.svg); */
         background-repeat: no-repeat;
         background-size: 100%;
         width: 12px;
@@ -14736,7 +14736,7 @@ body.modal-open--popup .dg-secondary-navbar {
     flex-shrink: 0
 }
 
-.btn-icon.btn-icon--arrow-left {
+/* .btn-icon.btn-icon--arrow-left {
     background-image: url(../icons/basic/arrow_left_circle.svg);
     background-size: 58px 58px
 }
@@ -14754,14 +14754,13 @@ body.modal-open--popup .dg-secondary-navbar {
 .btn-icon.btn-icon--arrow-right-gray {
     background-image: url(../icons/basic/arrow_right_circle__gray.svg);
     background-size: 58px 58px
-}
+} */
 
 .btn-icon.btn-icon--arrow-down-lg {
-    /* background-image: url(../icons/basic/arrow_down_lg.svg); */
     background-size: 58px 58px
 }
 
-.btn-icon.btn-icon--arrow-down-primary {
+/* .btn-icon.btn-icon--arrow-down-primary {
     background-image: url(../icons/basic/blue/arrow_down.svg)
 }
 
@@ -14773,27 +14772,27 @@ body.modal-open--popup .dg-secondary-navbar {
 .btn-icon.btn-icon--zoom-primary {
     background-image: url(../icons/basic/blue/search.svg);
     background-size: 40px 40px
-}
+} */
 
-.btn-icon.btn-icon--facebook-primary {
+/* .btn-icon.btn-icon--facebook-primary {
     background-image: url(images/facebook.svg)
-}
+} */
 
-.btn-icon.btn-icon--twitter-primary {
+/* .btn-icon.btn-icon--twitter-primary {
     background-image: url(images/twitter.svg)
-}
+} */
 
-.btn-icon.btn-icon--linkedin-primary {
+/* .btn-icon.btn-icon--linkedin-primary {
     background-image: url(images/linkedin.svg)
-}
-
+} */
+/* 
 .btn-icon.btn-icon--close-info-fill {
     background-image: url(../icons/basic/blue/close_fill.svg)
-}
+} */
 
-.btn-icon.btn-icon--envelope-rounded-primary {
+/* .btn-icon.btn-icon--envelope-rounded-primary {
     background-image: url(images/envelope_rounded.svg)
-}
+} */
 
 .btn-read-more {
     background-color: transparent;
@@ -15166,7 +15165,7 @@ body.modal-open--popup .dg-secondary-navbar {
     bottom: 0;
     left: 0;
     height: 35px;
-    background: url(images/arrow_right_circle.svg) center center no-repeat;
+    /* background: url(images/arrow_right_circle.svg) center center no-repeat; */
     margin-bottom: 12px
 }
 
