@@ -227,7 +227,7 @@ button,select {
 .col-lg-62{
 position: relative;
     width: 100%;
-    /* padding-right: 15px; */
+    padding-right: 15px;
     padding-left: 15px;
     flex: 0 0 50%;
         max-width: 50%;
@@ -8865,7 +8865,7 @@ a.bg-gray-650:focus,a.bg-gray-650:hover,button.bg-gray-650:focus,button.bg-gray-
 }
 
 .pl-2,.px-2 {
-    padding-left: .5rem!important
+    padding-left: .10rem!important
 }
 
 .p-3 {
@@ -11643,7 +11643,7 @@ body {
     }
     .header-section {
       
-        font-size: 18px !important;
+        font-size: 32px !important;
         font-weight: 600;
     }
     .dg-navbar .navbar-brand>img {
@@ -11652,6 +11652,9 @@ body {
 
 }
 
+.conbe{
+    padding-top: 2rem;
+}
 body>main {
     flex: 1
 }
@@ -13875,7 +13878,8 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 992px) {
     .card--feature .card--feature__text {
-        padding-bottom:50px
+        padding-bottom:50px;
+        color: black;
     }
 }
 
@@ -15344,7 +15348,7 @@ body.modal-open--popup .dg-secondary-navbar {
 
 @media (min-width: 1440px) {
     .banner .banner__img {
-        transform:scale(1.45) translate(0,-10%)
+        /* transform:scale(1.45) translate(0,-10%) */
     }
 }
 
@@ -15486,7 +15490,7 @@ body.modal-open--popup .dg-secondary-navbar {
     position: relative;
     height: 100%;
     font-family: "Roboto Condensed",Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    background-color: #343a40;
+    background-color: #000000;
     color: #fff;
     overflow: hidden
 }
@@ -15512,7 +15516,7 @@ body.modal-open--popup .dg-secondary-navbar {
     font-weight: 700;
     font-size: 48px;
     line-height: 1;
-    padding-top: 12%;
+    padding-top: 25%;
 }
 
 @media (min-width: 768px) {
@@ -16117,16 +16121,16 @@ body.modal-open--popup .dg-secondary-navbar {
 .img-lazy-wrapper {
     position: relative;
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
     
 }
 
 .about-top{
-    top: -25%;
+    top: -15%;
 }
 .py-sectiona{
-    padding-top: 100px;
+    padding-top: 35px;
 }
 
 .img-lazy-wrapper::after {
@@ -17369,16 +17373,7 @@ a{
     
   }
   
-  h6{
-  display:inline-block;
-    background:#fff;
-    margin:10px 0px;
-      z-index:11;
-    font-size:18px;
-    padding:10px 30px;
-     transform:translate(0px,300px);
-    transition-duration: 500ms;
-  }
+
   
    .box-container:hover h6{
     transform:translate(0px,0px);
@@ -17909,7 +17904,7 @@ code,pre {
 }
 
 embed,iframe,img,svg,video {
-    display: block;
+    /* display: block; */
     vertical-align: middle
 }
 
@@ -19656,7 +19651,7 @@ p:empty {
 }
 
 .text-base {
-    font-size: 1rem
+    font-size: 17px
 }
 
 .text-lg {
@@ -20600,7 +20595,7 @@ p:empty {
 }
 
 .pb-8 {
-    padding-bottom: 2rem
+    /* padding-bottom: 2rem */
 }
 
 .pt-10 {
@@ -20608,7 +20603,7 @@ p:empty {
 }
 
 .pr-10 {
-    padding-right: 2.5rem
+    /* padding-right: 2.5rem */
 }
 
 .pb-10 {
@@ -22870,7 +22865,7 @@ p:empty {
     }
 
     .lg\:mb-12 {
-        margin-bottom: 3rem
+        /* margin-bottom: 3rem */
     }
 
     .lg\:mt-16 {
@@ -23533,7 +23528,7 @@ p:empty {
 
 
     .py-sectionbb{
-        padding-top: 100px;
+        padding-top: 40px;
     }
 
 
@@ -23656,3 +23651,19 @@ p:empty {
   color: white;
   z-index: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
