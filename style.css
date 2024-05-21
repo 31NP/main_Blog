@@ -15516,7 +15516,7 @@ body.modal-open--popup .dg-secondary-navbar {
     font-weight: 700;
     font-size: 48px;
     line-height: 1;
-    padding-top: 25%;
+    padding-top: 50%;
 }
 
 @media (min-width: 768px) {
